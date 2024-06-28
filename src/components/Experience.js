@@ -99,7 +99,23 @@ const Experience = () => {
               <article>
                 <img src={checkmark} alt="Experience" className="icon" />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>GIT</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              {/* Add more skills here */}
+              <article>
+                <img src={checkmark} alt="Experience" className="icon" />
+                <div>
+                  <h3>AGILE</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              {/* Add more skills here */}
+              <article>
+                <img src={checkmark} alt="Experience" className="icon" />
+                <div>
+                  <h3>DATASTAGE</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -107,8 +123,16 @@ const Experience = () => {
               <article>
                 <img src={checkmark} alt="Experience" className="icon" />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>AWS</h3>
                   <p>Experienced</p>
+                </div>
+              </article>
+              {/* Add more skills here */}
+              <article>
+                <img src={checkmark} alt="Experience" className="icon" />
+                <div>
+                  <h3>FIREBASE</h3>
+                  <p>Intermediate</p>
                 </div>
               </article>
             </div>
