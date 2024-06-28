@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 43vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -26,6 +26,7 @@
   #profile,
   .section-container {
     display: block;
+    height: 53vh;
   }
   .arrow {
     display: none;
