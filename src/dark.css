@@ -50,6 +50,10 @@ body {
   background-color: black;
 }
 
+.dark-mode .contact-info-container a {
+  color: white;
+}
+
 .theme-toggle {
   background: none;
   border: none;
