@@ -1,5 +1,6 @@
 import React from "react";
 import project1 from "../assets/project-1.png";
+import personalblog from "../assets/PersonalBlog.jpeg";
 import arrow from "../assets/arrow.png";
 import useTheme from "../context/Porto_Context";
 
@@ -15,19 +16,19 @@ const Projects = () => {
           {/* Repeat this div for each project */}
           <div className="details-container color-container">
             <div className="article-container">
-              <img src={project1} alt="Project 1" className="project-img" />
+              <img src={personalblog} alt="Project 1" className="project-img" />
             </div>
             <h2 className="experience-sub-title project-title">Project One</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() => (window.location.href = "https://github.com/sadam456/PersonalBlog_FrontEnd")}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() => (window.location.href = "https://nimble-rugelach-59df20.netlify.app/")}
               >
                 Live Demo
               </button>
