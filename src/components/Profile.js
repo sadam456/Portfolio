@@ -1,7 +1,7 @@
 import React from "react";
 import linkedin from "../assets/linkedin.png";
 import Github from "../assets/github.png";
-import Profilepic from "../assets/profile-pic.png";
+import Profilepic from "../assets/profile.png";
 import useTheme from "../context/Porto_Context";
 import resume from "../assets/resume.pdf";
 
