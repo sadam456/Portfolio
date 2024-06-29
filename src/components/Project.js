@@ -22,13 +22,19 @@ const Projects = () => {
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/sadam456/PersonalBlog_FrontEnd")}
+                onClick={() =>
+                  (window.location.href =
+                    "https://github.com/sadam456/PersonalBlog_FrontEnd")
+                }
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://nimble-rugelach-59df20.netlify.app/")}
+                onClick={() =>
+                  (window.location.href =
+                    "https://nimble-rugelach-59df20.netlify.app/")
+                }
               >
                 Live Demo
               </button>
