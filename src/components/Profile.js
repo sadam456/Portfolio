@@ -3,7 +3,7 @@ import linkedin from "../assets/linkedin.png";
 import Github from "../assets/github.png";
 import Profilepic from "../assets/profile.png";
 import useTheme from "../context/Porto_Context";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Resume.pdf";
 
 
 // Profile Component
