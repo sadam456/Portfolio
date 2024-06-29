@@ -9,13 +9,42 @@ import resume from "../assets/Resume.pdf";
 // Profile Component
 const Profile = () => {
   const { darkMode } = useTheme();
+  
     const openPdfInNewTab = () => {
     window.open(resume, "_blank", "noopener,noreferrer");
   };
+
+   useEffect(() => {
+    const floatAnimation = () => {
+      const time = new Date().getTime() / 1000;
+      const newOffset = Math.sin(time) * 10; // Adjust 10 to change float height
+      setYOffset(newOffset);
+    };
+
+    const animationFrame = requestAnimationFrame(function animate() {
+      floatAnimation();
+      requestAnimationFrame(animate);
+    });
+
+    return () => cancelAnimationFrame(animationFrame);
+  }, []);
+  
   return (
     <section id="profile" className={darkMode ? "dark-mode" : ""}>
       <div className="section__pic-container">
-        <img src={Profilepic} alt="John Doe profile" />
+        <div
+          className="seamless-image-container"
+          style={{
+            transform: `translateY(${yOffset}px)`,
+            transition: "transform 0.1s ease-out",
+          }}
+        >
+          <img
+            src={Profilepic}
+            alt="John Doe profile"
+            className="seamless-image"
+          />
+        </div>
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
