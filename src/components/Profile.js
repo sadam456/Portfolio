@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import linkedin from "../assets/linkedin.png";
 import Github from "../assets/github.png";
 import Profilepic from "../assets/profile.png";
@@ -9,6 +10,7 @@ import resume from "../assets/Resume.pdf";
 // Profile Component
 const Profile = () => {
   const { darkMode } = useTheme();
+  const [yOffset, setYOffset] = useState(0);
   
     const openPdfInNewTab = () => {
     window.open(resume, "_blank", "noopener,noreferrer");
