@@ -3,10 +3,15 @@ import linkedin from "../assets/linkedin.png";
 import Github from "../assets/github.png";
 import Profilepic from "../assets/profile-pic.png";
 import useTheme from "../context/Porto_Context";
+import resume from "../assets/resume.pdf";
+
 
 // Profile Component
 const Profile = () => {
   const { darkMode } = useTheme();
+    const openPdfInNewTab = () => {
+    window.open(resume, "_blank", "noopener,noreferrer");
+  };
   return (
     <section id="profile" className={darkMode ? "dark-mode" : ""}>
       <div className="section__pic-container">
@@ -19,7 +24,7 @@ const Profile = () => {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => window.open("./assets/resume-example.pdf")}
+            onClick={openPdfInNewTab}
           >
             Download CV
           </button>
@@ -35,13 +40,13 @@ const Profile = () => {
             src={linkedin}
             alt="My LinkedIn profile"
             className="icon"
-            onClick={() => (window.location.href = "https://linkedin.com/")}
+            onClick={() => (window.location.href = "https://www.linkedin.com/in/sadamrohith-45/")}
           />
           <img
             src={Github}
             alt="My Github profile"
             className="icon"
-            onClick={() => (window.location.href = "https://github.com/")}
+            onClick={() => (window.location.href = "https://github.com/sadam456")}
           />
         </div>
       </div>
