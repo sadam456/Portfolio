@@ -71,6 +71,14 @@ const Experience = () => {
                   <p>Experienced</p>
                 </div>
               </article>
+             {/* Add more skills here */}
+              <article>
+                <img src={checkmark} alt="Experience" className="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
               {/* Add more skills here */}
               <article>
                 <img src={checkmark} alt="Experience" className="icon" />
