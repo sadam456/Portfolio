@@ -60,12 +60,12 @@ const About = () => {
           </div>
           <div className="text-container">
             <p>
-              As a passionate frontend developer with over a year of
-              professional experience, I've had the opportunity to work on
-              diverse projects that have honed my skills in React, JavaScript,
-              and responsive web design. My educational background in Computer
-              Science and Software Engineering has provided me with a strong
-              foundation in algorithmic thinking and software development
+             I am a passionate Computer Science master's student at the
+              University of Florida, I've had the opportunity to work on diverse
+              projects that have honed my skills in React, JavaScript, Java,
+              SpringBoot and responsive web design. My educational background in
+              Computer Science and Software Engineering has provided me with a
+              strong foundation in algorithmic thinking and software development
               principles. I'm constantly eager to learn new technologies and
               apply them to create innovative, user-friendly web applications.
             </p>
