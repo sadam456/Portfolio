@@ -104,6 +104,9 @@
 }
 
 @media screen and (max-width: 480px) {
+   #hamburger-nav {
+    height: 5vh;
+  }
   #profile {
     height: 63vh;
   }
