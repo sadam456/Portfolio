@@ -70,6 +70,11 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it's above other elements */
+  padding: 1rem;
 }
 
 .hamburger-menu {
@@ -183,7 +188,6 @@ section {
   border-radius: 0;
   max-width: 100%;
   height: auto;
-  display: block;
   object-fit: cover;
 }
 
@@ -585,5 +589,39 @@ section {
   }
   50% {
     border-color: black;
+  }
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 768px) {
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .section__pic-container {
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  #hamburger-nav {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* Ensure content doesn't overflow on very small screens */
+@media screen and (max-width: 480px) {
+  section {
+    margin: 0 1rem;
+  }
+
+  .section__pic-container {
+    max-width: 250px;
+    max-height: 250px;
   }
 }
