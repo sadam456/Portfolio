@@ -107,6 +107,9 @@
   #profile {
     height: 63vh;
   }
+   footer {
+    height: 5vh;
+  }
 }
 
 @media screen and (max-width: 400px) {
