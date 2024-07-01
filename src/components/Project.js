@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "../assets/project-1.png";
 import personalblog from "../assets/PersonalBlog.jpeg";
+import foodDelivery from"../assets/FoodDelivery.jpeg
 import arrow from "../assets/arrow.png";
 import useTheme from "../context/Porto_Context";
 
@@ -37,19 +38,19 @@ const Projects = () => {
           {/* Add more projects here */}
           <div className="details-container color-container">
             <div className="article-container">
-              <img src={project1} alt="Project 1" className="project-img" />
+              <img src={foodDelivery} alt="Project 1" className="project-img" />
             </div>
             <h2 className="experience-sub-title project-title">Project One</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                onClick={() => window.open("https://github.com/sadam456/FoodDeliveryApp", "_blank", "noopener,noreferrer")}
               >
                 Github
               </button>
               <button
                 className="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://github.com/")}
+                 onClick={() => window.open("https://sadam456.github.io/FoodDeliveryApp/", "_blank", "noopener,noreferrer")} 
               >
                 Live Demo
               </button>
