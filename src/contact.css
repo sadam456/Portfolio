@@ -57,7 +57,7 @@
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 1rem;
-  width: 30%;
+  width: 29%;
 }
 
 .contact-form button:disabled {
