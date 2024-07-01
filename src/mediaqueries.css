@@ -51,7 +51,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 10vh;
   }
   #profile {
     height: 73vh;
@@ -104,11 +104,13 @@
 }
 
 @media screen and (max-width: 480px) {
- 
+  #hamburger-nav {
+    height: 5vh;
+  }
   #profile {
     height: 63vh;
   }
-   footer {
+  footer {
     height: 5vh;
   }
 }
