@@ -1,7 +1,7 @@
 import React from "react";
 import project1 from "../assets/project-1.png";
 import personalblog from "../assets/PersonalBlog.jpeg";
-import foodDelivery from"../assets/FoodDelivery.jpeg
+import foodDelivery from "../assets/FoodDelivery.jpeg";
 import arrow from "../assets/arrow.png";
 import useTheme from "../context/Porto_Context";
 
