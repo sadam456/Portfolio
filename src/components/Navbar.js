@@ -34,7 +34,7 @@ const Navbar = () => {
         </button>
       </nav>
       <nav id="hamburger-nav" className={darkMode ? "dark-mode" : ""}>
-        <div className="logo">John Doe</div>
+        <div className="logo">Rohith Sadam</div>
         <div className="hamburger-menu">
           <div className="hamburger-icon" onClick={toggleMenu}>
             <span></span>
