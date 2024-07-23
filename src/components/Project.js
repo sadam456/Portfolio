@@ -17,9 +17,9 @@ const Projects = () => {
           {/* Repeat this div for each project */}
           <div className="details-container color-container">
             <div className="article-container">
-              <img src={personalblog} alt="Project 1" className="project-img" />
+              <img src={personalblog} alt="PersonalBlog Space" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">PersonalBlog Space</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
@@ -38,9 +38,9 @@ const Projects = () => {
           {/* Add more projects here */}
           <div className="details-container color-container">
             <div className="article-container">
-              <img src={foodDelivery} alt="Project 1" className="project-img" />
+              <img src={foodDelivery} alt="Food Delivery" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Project One</h2>
+            <h2 className="experience-sub-title project-title">Food Delivery</h2>
             <div className="btn-container">
               <button
                 className="btn btn-color-2 project-btn"
